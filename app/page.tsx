@@ -772,6 +772,7 @@ export default function ABMEstadoProyecto() {
       <div className="container mx-auto py-6">
         {currentView === "operacion-exitosa" ||
         currentView === "operacion-cancelada" ||
+        currentView === "operacion-exitosa-modificacion" ||
         currentView === "operacion-exitosa-baja" ? (
           renderCurrentView()
         ) : (
